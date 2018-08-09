@@ -1,0 +1,93 @@
+2018-08-09 18:27:09  [ com.liufeng.cgds.World:0 ]  ==============加载游戏配置=============
+2018-08-09 18:27:09  [ com.liufeng.cgds.World:32 ]  ==============初始化数据库=============
+2018-08-09 18:27:09  [ org.springframework.core.env.StandardEnvironment:426 ]  Initializing new StandardEnvironment
+2018-08-09 18:27:09  [ org.springframework.core.env.StandardEnvironment:431 ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-08-09 18:27:09  [ org.springframework.core.env.StandardEnvironment:435 ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-08-09 18:27:09  [ org.springframework.core.env.StandardEnvironment:436 ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-08-09 18:27:09  [ org.springframework.context.support.ClassPathXmlApplicationContext:450 ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@66174689: startup date [Thu Aug 09 18:27:09 CST 2018]; root of context hierarchy
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:680 ]  Initializing new StandardEnvironment
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:680 ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:680 ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:680 ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:702 ]  Initializing new StandardEnvironment
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:702 ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:702 ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-08-09 18:27:10  [ org.springframework.core.env.StandardEnvironment:703 ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-08-09 18:27:10  [ org.springframework.beans.factory.xml.XmlBeanDefinitionReader:744 ]  Loading XML bean definitions from class path resource [applicationContext-game.xml]
+2018-08-09 18:27:10  [ com.liufeng.cgds.World:772 ]  启动主线程!
+2018-08-09 18:27:10  [ com.liufeng.cgds.CGDSApp:773 ]  服务器启动完成
+2018-08-09 18:28:29  [ com.liufeng.cgds.CGDSApp:80344 ]  HttpServer stop!
+2018-08-09 18:28:36  [ com.liufeng.cgds.World:29 ]  ==============加载游戏配置=============
+2018-08-09 18:28:36  [ com.liufeng.cgds.World:32 ]  ==============初始化数据库=============
+2018-08-09 18:28:40  [ com.liufeng.cgds.World:60 ]  启动主线程!
+2018-08-09 18:28:40  [ com.liufeng.cgds.CGDSApp:38 ]  服务器启动完成
+2018-08-09 18:29:13  [ com.liufeng.cgds.CGDSApp:29 ]  HttpServer stop!
+2018-08-09 18:29:16  [ com.liufeng.cgds.World:29 ]  ==============加载游戏配置=============
+2018-08-09 18:29:16  [ com.liufeng.cgds.World:32 ]  ==============初始化数据库=============
+2018-08-09 18:29:22  [ com.liufeng.cgds.World:60 ]  启动主线程!
+2018-08-09 18:29:22  [ com.liufeng.cgds.CGDSApp:38 ]  服务器启动完成
+2018-08-09 18:31:28  [ com.liufeng.cgds.CGDSApp:29 ]  HttpServer stop!
+2018-08-09 18:31:32  [ com.liufeng.cgds.World:29 ]  ==============加载游戏配置=============
+2018-08-09 18:31:32  [ com.liufeng.cgds.World:32 ]  ==============初始化数据库=============
+2018-08-09 18:31:34  [ com.liufeng.cgds.World:60 ]  启动主线程!
+2018-08-09 18:31:34  [ com.liufeng.cgds.CGDSApp:38 ]  服务器启动完成
+2018-08-09 18:31:37  [ com.liufeng.cgds.CGDSApp:29 ]  HttpServer stop!
+2018-08-09 18:34:38  [ com.liufeng.cgds.World:29 ]  ==============加载游戏配置=============
+2018-08-09 18:34:38  [ com.liufeng.cgds.World:32 ]  ==============初始化数据库=============
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  ... log4jdbc initializing ...
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]    log4jdbc.properties not found on classpath
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.debug.stack.prefix is not defined
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.sqltiming.warn.threshold is not defined
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.sqltiming.error.threshold is not defined
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.statement.warn is not defined (using default value false)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.select is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.insert is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.update is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.delete is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.create is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.trim.sql is not defined (using default value true)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  x log4jdbc.drivers is not defined
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]    FOUND DRIVER com.mysql.jdbc.Driver
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  ... log4jdbc initialized! ...
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  driver name is MySQL-AB JDBC Driver
+2018-08-09 18:34:40  [ log4jdbc.debug:506 ]  driver name is MySQL-AB JDBC Driver
+2018-08-09 18:34:40  [ com.liufeng.cgds.World:60 ]  启动主线程!
+2018-08-09 18:34:40  [ com.liufeng.cgds.CGDSApp:38 ]  服务器启动完成
+2018-08-09 18:35:15  [ com.liufeng.cgds.CGDSApp:29 ]  HttpServer stop!
+2018-08-09 18:43:24  [ com.liufeng.cgds.World:29 ]  ==============加载游戏配置=============
+2018-08-09 18:43:24  [ com.liufeng.cgds.World:32 ]  ==============初始化数据库=============
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  ... log4jdbc initializing ...
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]    log4jdbc.properties not found on classpath
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.debug.stack.prefix is not defined
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.sqltiming.warn.threshold is not defined
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.sqltiming.error.threshold is not defined
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.statement.warn is not defined (using default value false)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.select is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.insert is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.update is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.delete is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.create is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.trim.sql is not defined (using default value true)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  x log4jdbc.drivers is not defined
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]    FOUND DRIVER com.mysql.jdbc.Driver
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  ... log4jdbc initialized! ...
+2018-08-09 18:43:28  [ log4jdbc.debug:506 ]  driver name is MySQL-AB JDBC Driver
+2018-08-09 18:43:28  [ com.liufeng.cgds.World:37 ]  ==============启动计划任务管理器=============
+2018-08-09 18:43:39  [ com.liufeng.cgds.World:40 ]  ==============开启http监听=============
+2018-08-09 18:43:39  [ com.liufeng.http.HttpServer:59 ]  bind port:20001
+2018-08-09 18:43:39  [ com.liufeng.http.HttpServer:68 ]  HttpServer now listening on port 20001
+2018-08-09 18:43:39  [ com.liufeng.cgds.World:60 ]  启动主线程!
+2018-08-09 18:43:39  [ com.liufeng.cgds.CGDSApp:38 ]  服务器启动完成
+2018-08-09 18:43:42  [ com.liufeng.cgds.CGDSApp:29 ]  HttpServer stop!

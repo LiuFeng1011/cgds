@@ -1,0 +1,19 @@
+ty generated #
+
+iosclient/
+# =============== #
+[Tt]emp/
+[Bb]uild/
+[Ll]ibrary/
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
