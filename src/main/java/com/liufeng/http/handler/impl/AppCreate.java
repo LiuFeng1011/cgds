@@ -6,6 +6,7 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.liufeng.cgds.app.AppManager;
 import com.liufeng.http.handler.HttpHandler;
 import com.liufeng.http.handler.domain.ReturnEntity;
 import com.liufeng.http.request.HttpRequestMessage;
@@ -19,6 +20,8 @@ public class AppCreate extends HttpHandler{
 	public String handle(HttpRequestMessage request, HttpResponseMessage response) {
 		String appname = request.getParameter("appname");
 		String resettime = request.getParameter("resettime");
+		String userid = request.getParameter("userid");
+		
 		long resettimel = -1;
 		try{
 			resettimel = Long.parseLong(resettime);
@@ -27,7 +30,7 @@ public class AppCreate extends HttpHandler{
 			return null;
 		}
 		
-//		AppManager.getInstance().CreateApp(appname, resettimel);
+		AppManager.getInstance().CreateApp(appname, resettimel,userid);
 		
 		// TODO Auto-generated method stub
 		Map<String,Object> data = new HashMap<String,Object>();

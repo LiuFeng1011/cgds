@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>rsatest</title>
+    
+    <script type="text/javascript" src="./js/jsbn.js"></script>
+    <script type="text/javascript" src="./js/prng4.js"></script>
+    <script type="text/javascript" src="./js/rng.js"></script>
+    <script type="text/javascript" src="./js/rsa.js"></script>
+    <script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="jsencrypt.min.js"></script>
+
+</head>
+<script type="text/javascript">  
+    function rsatest() {
+        var publickey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCJ9s1qlOyv9qpuaTqauW6fUftzE50rVk3yVPZwv1aO1Ch/XSEz76xCwkyvqpaqceRXrPpdBmO5+ruJ+I8osOHo7L5GWEOcMOO+8izp9hXKBBrmRMD4Egpn00k9DhVIEKp/vyddZPS/doxB8onhN6poTJDLdFLFVEicMf52caN9GQIDAQAB";
+        
+        // var rsa = new RSAKey();
+        // var exponent = "10001";
+        // rsa.setPublic(publickey, exponent);
+        // password = rsa.encrypt(password);
+        var password = "testpassword 123";
+
+        var encrypt=new JSEncrypt();
+
+    　　encrypt.setPublicKey(publickey);
+
+    　　password = encrypt.encrypt(password);
+         
+
+
+        $.post("rsatest.php", {password:password}, function(result) {
+            alert("解密的用户名：" + result.uname + "\n" + "解密的密码："
+                    + result.password);
+
+        });
+    };
+
+    rsatest();
+</script> 
+<body>  
+    
+</body>
+</html>

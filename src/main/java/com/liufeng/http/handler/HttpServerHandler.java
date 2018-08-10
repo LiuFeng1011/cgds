@@ -50,7 +50,7 @@ public class HttpServerHandler extends IoHandlerAdapter  {
 				ReturnEntity ret = ReturnEntity.createFail("logicName is null!!!!");
 				response.appendBody(JsonUtil.ObjectToJsonString(ret));
 			}else{
-				clazz = (Class<? extends HttpHandler>)Class.forName("com.dreamgear.http.handler.impl." + logicName);
+				clazz = (Class<? extends HttpHandler>)Class.forName("com.liufeng.http.handler.impl." + logicName);
 				HttpHandler handler = clazz.newInstance();
 
 				if(handler != null )handler.handle(request,response); 
